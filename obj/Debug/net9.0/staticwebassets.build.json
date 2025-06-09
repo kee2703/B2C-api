@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "K+8PpY3h0OS1ZW42wT1TMsZNO2dTqDpo4PBbGfuiafg=",
+  "Source": "RotaryAdminAPI",
+  "BasePath": "_content/RotaryAdminAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

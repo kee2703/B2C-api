@@ -1,0 +1,6 @@
+@RotaryAdminAPI_HostAddress = http://localhost:5038
+
+GET {{RotaryAdminAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
