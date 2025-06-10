@@ -1,64 +1,30 @@
-# .NET build artifacts
-bin/
-obj/
-*.dll
-*.exe
-*.app
-*.pdb
-*.cache
-*.db
-*.mdb
-*.log
-*.vspscc
-*.vssscc
-*.user
-*.suo
-*.sdf
-*.sln.docstates
-
-# Visual Studio Code
+# Ignore Visual Studio and VSCode folders
+.vs/
 .vscode/
 
-# Rider IDE
-.idea/
-
-# Build result directories
+# Build results
+bin/
+obj/
 artifacts/
-publish/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# User-specific files
-*.swp
-*.bak
-*.tmp
-
-# Logs
+TestResults/
 *.log
 
-# Environment variables
+# User-specific files
+*.user
+*.suo
+*.sln.docstates
+*.tmp
+
+# ASP.NET
+*.db
+*.pdb
+*.cache
+
+# Environment files
 .env
 .env.*
-
-# Angular/React/Node frontend (optional)
-node_modules/
-dist/
-build/
-
-# Package managers
-package-lock.json
-yarn.lock
-
-# Compiled TypeScript (optional)
-*.js
-*.js.map
-
-# Optional test results
-TestResults/
-coverage/
 
 # Others
 *.nupkg
 *.snupkg
-*.vs/
+publish/
